@@ -1,6 +1,6 @@
 # Meta 2026
 
-Projeto de estudo para desenvolvimento web usando:
+## Tecnologias Utilizadas
 - HTML
 - CSS
 - JavaScript
@@ -8,10 +8,26 @@ Projeto de estudo para desenvolvimento web usando:
 - MySQL
 
 ## Objetivo
-Criar um sistema de metas e tarefas individuais e coletivas, inspirado no Trello, para uso domestico e/ou pequenas empresas.
+Criar um sistema de metas e tarefas individuais e coletivas, inspirado no Trello, para uso doméstico e/ou pequenas empresas.
+
+## Documentação
+
+- Fluxograma da renderização do Kanban em JavaScript:
+  - `docs/fluxograma-kanban.md`
+
 
 ## Status do Projeto
-🚧 Em desenvolvimento (Fase 0 – Estrutura inicial)
+
+🚧 Em desenvolvimento
+
+### Fases concluídas
+- ✅ Fase 0 – Estrutura inicial do projeto
+- ✅ Fase 1 – Layout Kanban (HTML + CSS)
+- ✅ Fase 1.1 – Estrutura preparada para JavaScript e Backend
+- ✅ Fase 1.2 – Renderização dinâmica com JavaScript
+
+### Próxima etapa
+- ⏭️ Fase 1.3 – Criação de tarefas pelo frontend
 
 ## Autor
 Gutierrez Andrade
