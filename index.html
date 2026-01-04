@@ -7,10 +7,55 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Meta 2026</h1>
-    <p>Organize suas metas, tarefas, projetos e planos</p>
+    <!-- HEADER -->
+     <header class="header">
+        <h1>Meta 2026</h1>
+        <nav>
+            <span>Olá, Usuário</span>
+            <button>Sair</button>
+        </nav>
 
 
+     </header>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container">
+
+        <!-- PROJETOS -->
+        <section class="projects">
+        <h2>Projetos</h2>
+        <ul>
+            <li class="active">Projeto Pessoal</li>
+            <li>Projeto Familiar</li>
+            <li>Projeto Profissional</li>
+        </ul>
+     </section>
+
+     <!-- KANBAN -->
+      <section class="kanban">
+        <div class="column">
+            <h3>A Fazer</h3>
+            <div class="card">
+                <p>Definir Metas</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <h3>Em Andamento</h3>
+            <div class="card">
+                <p>Criar estrutura de projeto</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <h3>Concluído</h3>
+            <div class="card">
+                <p>Iniciar repositório no GitHub</p>
+            </div>
+        </div>    
+
+      </section>
+
+    </main>
     <script src="js/main.js"></script>
 </body>
 </html>
