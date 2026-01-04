@@ -55,6 +55,11 @@ body {
     background-color: #e2e8f0;
 }
 
+.project-list li.active {
+    font-weight: bold;
+}
+
+
 /*KANBAN */
 .kanban {
     flex: 1;

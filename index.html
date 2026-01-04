@@ -23,37 +23,41 @@
         <!-- PROJETOS -->
         <section class="projects">
         <h2>Projetos</h2>
-        <ul>
-            <li class="active">Projeto Pessoal</li>
-            <li>Projeto Familiar</li>
-            <li>Projeto Profissional</li>
+        <ul class="project-list">
+            <li data-project-id="1" class="active">Projeto Pessoal</li>
+            <li data-project-id="2">Projeto Familiar</li>
+            <li data-project-id="3">Projeto Profissional</li>
         </ul>
      </section>
 
      <!-- KANBAN -->
-      <section class="kanban">
-        <div class="column">
+    <section class="kanban" data-kanban>
+
+        <div class="column" data-status="a_fazer">
             <h3>A Fazer</h3>
-            <div class="card">
-                <p>Definir Metas</p>
+
+            <div class="card" data-task-id="1">
+                <p>Definir metas de 2026</p>
             </div>
         </div>
 
-        <div class="column">
+        <div class="column" data-status="andamento">
             <h3>Em Andamento</h3>
-            <div class="card">
-                <p>Criar estrutura de projeto</p>
+
+            <div class="card" data-task-id="2">
+                <p>Criar estrutura do projeto</p>
             </div>
         </div>
 
-        <div class="column">
+        <div class="column" data-status="concluido">
             <h3>Concluído</h3>
-            <div class="card">
+
+            <div class="card" data-task-id="3">
                 <p>Iniciar repositório no GitHub</p>
             </div>
-        </div>    
+        </div>
 
-      </section>
+    </section>
 
     </main>
     <script src="js/main.js"></script>
